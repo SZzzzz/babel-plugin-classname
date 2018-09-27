@@ -1,4 +1,4 @@
-# babel-plugin-classname
+# babel-plugin-classname-transformer
 A babel plugin for referencing parent `className` like  `&` in Sass(Less).
 
 # Install
