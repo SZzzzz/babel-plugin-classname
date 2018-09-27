@@ -2,13 +2,13 @@
 A babel plugin for referencing parent `className` like  `&` in Sass(Less).
 
 # Install
-`yarn add babel-plugin-classname --dev`
+`yarn add babel-plugin-classname-transformer --dev`
 
 # Configuration
 Via .babelrc or babel-loader.
 ```
 {
-  "plugins": [["classname", options]]
+  "plugins": [["classname-transformer", options]]
 }
 ```
 
@@ -20,7 +20,7 @@ For Example:
 ```
 // .babelrc
 "plugins": [
-  ["classname", {"flag": "&"}]
+  ["classname-transformer", {"flag": "&"}]
 ]
 ```
 

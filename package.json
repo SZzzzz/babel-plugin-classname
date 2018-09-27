@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-classname",
-  "version": "1.0.0",
+  "name": "babel-plugin-classname-transformer",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/SZzzzz/babel-classname-plugin"
+    "url": "https://github.com/SZzzzz/babel-plugin-classname-transformer"
   },
   "files": [
     "index.js",
