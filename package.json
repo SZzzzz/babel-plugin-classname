@@ -24,7 +24,9 @@
     "@types/babel__template": "^7.0.0",
     "@types/babel__traverse": "^7.0.0",
     "@types/node": "^10.10.0",
-    "es6-promise": "^4.2.4"
+    "chai": "^4.2.0",
+    "es6-promise": "^4.2.4",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "build": "rm -rf lib && tsc",
