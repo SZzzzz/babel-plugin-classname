@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-classname-transformer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -25,12 +25,10 @@
     "@types/babel__traverse": "^7.0.0",
     "@types/node": "^10.10.0",
     "chai": "^4.2.0",
-    "es6-promise": "^4.2.4",
     "mocha": "^5.2.0"
   },
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "test": "mocha",
-    "demo": "node demo/convert.js"
+    "test": "mocha"
   }
 }
