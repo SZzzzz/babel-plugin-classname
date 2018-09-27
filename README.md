@@ -18,7 +18,7 @@ Options can be a object with properties below:
 
 For Example:
 ```
-.babelrc
+// .babelrc
 "plugins": [
   ["classname", {"flag": "&"}]
 ]
